@@ -1,6 +1,8 @@
 What happens when you initialize a repository? Why do you need to do it?
-
-it creates the .git file and starts your repository
+	it creates the .git file and starts your repository
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-The statging area only contains changes that you feel need to be commited at this time,.  Changes could have been made elsewhere, but not commited to yet
+	The statging area only contains changes that you feel need to be commited at this time,.  Changes could have been made elsewhere, but not commited to yet
+
+How can you use the staging area to make sure you have one commit per logical change?
+	You can stage one file at a time to ensure that only changes you want commited get commited together for a logical change.
