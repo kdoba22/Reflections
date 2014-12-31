@@ -1,0 +1,32 @@
+Using diff to Find Bugs
+
+This is am important concept because it does help you find bugs introduced in code.
+	There are many times you get to a certain ponit when developing and hwat you have works, but you want to try somethine else or something different and you make the change.
+
+this change should not effect the actual output, but it does and many times as the author you can't pickup on your own typos, you read right through them.
+
+Using this technique to see differences will help you identify what you may havbe done wrong.
+
+
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Knowing the history can help you identify when an error was introduced and how or what the changes were suppose to be.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+The big pro is that you can save or commit as often as you like and at point that you want to commit.
+The big con is that at times you get very busy and forget to save or somethign happens and you hazven't saved or committed in a while an dyou loose a bunch of work.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Saving all files during a commit allows the programers to have a very clear picture of everything involved in the changes
+
+How can you use the commands git log and git diff to view the history of files?
+these 2 commands work hand in hand.  The git log shows you the changes ior difference bewtween saves of the repository and the
+get diff shows you the difference between 2 commits.  This could be very helpful in troubleshooting bugs and identifying when they were introduced,
+
+How might using version control make you more confident to make changes that could break something?
+It allows you to save changes and restore them as you go.  If you have code that works and all of a suppen it doesn't, it is easy to go back and figure out what change caused the issue.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I'd like to try to keep my filed stored in GIT while coding so that I can track changes and know what was changes and when.
