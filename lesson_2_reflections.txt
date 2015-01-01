@@ -6,3 +6,17 @@ How is the staging area different from the working directory and the repository?
 
 How can you use the staging area to make sure you have one commit per logical change?
 	You can stage one file at a time to ensure that only changes you want commited get commited together for a logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	Branches would help in concurrent development.  When there are more that one change going into a piece of code at once by 2 different people or perhaps when you just want to test an idea without actually changign yoru code until you know that our idea is a good one.
+
+How do the diagrams help you visualize the branch structure?
+	exactly where you are in the process.  It helps you keep straight all chekcouts done by everyone including you and keeps things managelble.  
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	merging two branches together basically brings the 2 branches and combines theminto one brsnch keepinh all changes required.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	By git automatically merging everythign thqat it can it makes the merger process quick and easy.
+
+	Manually mergin  changes can be a time consuming and difficult thing to do.
